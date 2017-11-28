@@ -104,7 +104,7 @@ class Boc_statement:
 
 		def get_our_acc_sid(self):
 
-			if int(float(str.strip(self.account_number))) == 00000000000:
+			if int(float(str.strip(self.account_number))) == 00000000000:# account number of the company card account goes here
 				acc_sid = "CARD"
 			else:
 				acc_sid = "MAIN"
